@@ -1,0 +1,84 @@
+html {
+	height: 100%;
+	-webkit-text-size-adjust: none;
+}
+
+body {
+	margin: 0;
+	color: #000;
+	font: 14px/18px Arial, Helvetica, sans-serif;
+	background: #fff;
+	min-width: 320px;
+	height: 100%;
+}
+
+* {
+	outline: none;
+	box-sizing: border-box;
+}
+
+input, textarea, select {
+	font: 100% Arial, Helvetica, sans-serif;
+	vertical-align: middle;
+}
+
+#wrapper {
+	padding: 55px 0 0 0;
+	width: 960px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+
+.canvas-cover {
+	margin: 0 0 15px;
+	position: relative;
+}
+
+#canvas {
+	width: 100%;
+	height: 500px;
+	border: 8px solid #eee;
+	border-radius: 5px;
+	box-shadow: 0 7px 20px rgba(0,0,0,.5);
+	cursor: url("../img/pencil-cursor.png"), auto;
+}
+
+.options {
+	padding: 10px;
+	text-align: center;
+}
+
+.options:after {
+	clear: both;
+	display: block;
+	content: "";
+}
+
+.options .col {
+	float: left;
+	width: 33.33333%;
+	padding: 5px 10px;
+}
+
+.arrows-step {
+	position: absolute;
+	right: 20px;
+	top: -30px;
+}
+
+.arrows-step a {
+	text-indent: -9999px;
+	overflow: hidden;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../img/arrows.png) no-repeat;
+}
+
+.arrows-step .redo {
+	background-position: -20px 0;
+	margin: 0 0 0 15px;
+}
+
+
+

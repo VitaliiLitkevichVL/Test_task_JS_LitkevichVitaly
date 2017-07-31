@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Image Editor</title>
+	<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div class="canvas-cover">
+			<canvas id="canvas" width="960" height="500"></canvas>
+			<div class="arrows-step">
+				<a href="#" class="undo">undo</a>
+				<a href="#" class="redo">redo</a>
+			</div>
+		</div>
+		<div class="options">
+			<div class="col">
+				<span class="text">Select line color:</span>
+				<input type="color" id="line-color">
+			</div>
+			<div class="col">
+				<span class="text">Select line width:</span>
+				<select name="line-width" id="line-width">
+					<option value="1">1 px</option>
+					<option value="2">2 px</option>
+					<option value="3">3 px</option>
+					<option value="4">4 px</option>
+					<option value="5">5 px</option>
+					<option value="6">6 px</option>
+					<option value="7">7 px</option>
+					<option value="8">8 px</option>
+					<option value="9">9 px</option>
+					<option value="11">11 px</option>
+					<option value="12">12 px</option>
+					<option value="13">13 px</option>
+					<option value="14">14 px</option>
+					<option value="15">15 px</option>
+					<option value="16">16 px</option>
+					<option value="17">17 px</option>
+					<option value="18">18 px</option>
+					<option value="19">19 px</option>
+					<option value="20">20 px</option>
+					<option value="21">21 px</option>
+				</select>
+			</div>
+			<div class="col">
+				<button id="clear-canvas">Clear canvas</button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/bundle.js"></script>
+</body>
+</html>
